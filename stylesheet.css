@@ -17,23 +17,26 @@ body {
 p {
     font-size: larger;
     max-width: 800px;
+    padding: 0px 0px 0px 40px;
 }
 
 .main {
     display: flex;
     gap:10px;
     flex-direction: column;
-    padding: 40px 0px 40px 40px;
     justify-content: center;
     flex: 1;
+    background-color: #F9FAFB;
 }
 
 .form-bg {
     box-shadow: 4px 4px 4px grey;
-    padding: 12px 0px;
+    padding: 12px 0px 12px 0px;
+    background-color: white;
 }
 
 .form-box {
+    padding: 0px 0px 20px 40px;
     display: flex;
     gap: 96px;
 }
@@ -70,6 +73,6 @@ button {
     border-color: #151C46;
     background-color: #CD7699;
     color: white;
-
+    margin-left: 40px;
 
 }
