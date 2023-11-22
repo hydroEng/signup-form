@@ -9,7 +9,7 @@ body {
     width: 30vw;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     background-image: url("bg_crop.jpg");
 }
@@ -59,6 +59,35 @@ p {
     color: #2e2e2e;
 }
 
+.img-container {
+    padding: 12px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+img#card {
+    width: 100px;
+}
+
+.fat {
+    font-size: 110px;
+    color: azure;
+    font-family: fantasy;
+}
+
+.img-bg {
+    display: flex;
+    align-items: center;
+    padding: 6px 0px;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.289);
+}
 input {
     height: 24px;
     border-radius: 5px;
@@ -76,4 +105,17 @@ button {
     margin-left: 40px;
     margin-top: 20px;
 
+}
+
+.error-box {
+    color: red;
+    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 2px;
+    height: 20px;
+}
+
+.attrib {
+    color: white;
 }

@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href='stylesheet.css'>
-    <script src="script.js"></script>
+    
 </head>
 <body>
-    <div class="sidebar"><div class="attrib">Photo by some random on the internet.</div></div>
+    <div class="sidebar">
+        <div class="img-container">
+            <div class="img-bg">
+                <img id="card" src="odin-lined.png" alt="">
+                <p class="fat">ODIN</p>
+            </div>
+        </div>
+        <div class="attrib">Photo by some random on the internet.</div>
+    </div>
     <div class="main">
         <div class="header-text">
             <p>Move to an alien planet right now! You'll definitely regret it, but there's a cool picture in the sidebar to entice you.<br><br>
@@ -31,6 +39,7 @@
                     <div class="form-unit">
                         <label for="password">Password</label>
                         <input type="password" id="password" required>
+                        <p class="error-box"></p>
                     </div>
                 </div>
                 <div class="form-col">
@@ -55,5 +64,6 @@
             <p class="login">Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
